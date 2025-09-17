@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/../../erdata/dbscript/01-create_table.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/../../erdata/dbscript/02-create_index.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/../../erdata/dbscript/init_data/07sys_dict.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/00-工具代码/Oracle-01-查询锁定状态以及切断.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/00-工具代码/pforms-更改sys_param.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/01-续交/01-续交02.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/01-续交/01-续交数据操作.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/01-续交所有入口集中测试.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/02-再交款/02-再交数据操作.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/02-再交款/02-再交款双边交款.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/02-再交款/02-再交款滨海新区new.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/02-再交款/02-再交款滨海新区数据.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/02-再交款/02-滨海交款.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/02-再交款/02-滨海再交款 购房人单边交款.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/02-再交款/02-滨海再交款 资金部创建交易.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/02-再交款所有入口集中测试.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/03-柜面交款/03-CounterPay Interface Test.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/03-查询条目信息.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/2025年9月16日缴存演示.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/../carehome/carehome2/carehome-svr/db/00schema.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/../carehome/carehome2/carehome-svr/db/01carehome_config.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/../carehome/carehome2/carehome-svr/db/02carehome_sys.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/../carehome/carehome2/carehome-svr/db/03carehome_job.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/../pig4cloud.com/pigx/db/0pigxx_boot.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/../pig4cloud.com/pigx/db/1schema.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/../pig4cloud.com/pigx/db/2pigxx.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/../pig4cloud.com/pigx/db/3pigxx_flow.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/../pig4cloud.com/pigx/db/4pigxx_job.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/../pig4cloud.com/pigx/db/5pigxx_mp.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/../pig4cloud.com/pigx/db/6pigxx_config.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/../pig4cloud.com/pigx/db/7pigxx_pay.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/../pig4cloud.com/pigx/db/8pigxx_codegen.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/../pig4cloud.com/pigx/db/999pigxx_app.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/../pig4cloud.com/pigx/db/99pigxx_bi.sql" dialect="MySQL" />
+    <file url="PROJECT" dialect="MySQL" />
+  </component>
+</project>

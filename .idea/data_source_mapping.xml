@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourcePerFileMappings">
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/01765648-da1e-4e54-b61d-151c231ddb2d/console.sql" value="01765648-da1e-4e54-b61d-151c231ddb2d" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/03483be9-83aa-46b2-a44b-a59b93a9d8d0/演示.sql" value="03483be9-83aa-46b2-a44b-a59b93a9d8d0" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/03483be9-83aa-46b2-a44b-a59b93a9d8d0/第一次演示.sql" value="03483be9-83aa-46b2-a44b-a59b93a9d8d0" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/1556ef39-856d-4971-93bb-8347fd90f661/console.sql" value="1556ef39-856d-4971-93bb-8347fd90f661" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/5afc7725-3cac-4b5e-a52e-f87afd7d1dec/console.sql" value="5afc7725-3cac-4b5e-a52e-f87afd7d1dec" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/6d38cfb2-8008-4daa-8e12-113e2cc6b402/console.sql" value="6d38cfb2-8008-4daa-8e12-113e2cc6b402" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/9531ebb5-2ac5-41a4-ab54-7812a26d8232/console.sql" value="9531ebb5-2ac5-41a4-ab54-7812a26d8232" />
+    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/03-查询条目信息.sql" value="01765648-da1e-4e54-b61d-151c231ddb2d" />
+    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/2025年9月16日缴存演示.sql" value="01765648-da1e-4e54-b61d-151c231ddb2d" />
+  </component>
+</project>
