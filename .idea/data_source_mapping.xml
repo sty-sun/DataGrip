@@ -2,13 +2,44 @@
 <project version="4">
   <component name="DataSourcePerFileMappings">
     <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/01765648-da1e-4e54-b61d-151c231ddb2d/console.sql" value="01765648-da1e-4e54-b61d-151c231ddb2d" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/03483be9-83aa-46b2-a44b-a59b93a9d8d0/console_1.sql" value="03483be9-83aa-46b2-a44b-a59b93a9d8d0" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/03483be9-83aa-46b2-a44b-a59b93a9d8d0/入账-消息队列改造.sql" value="03483be9-83aa-46b2-a44b-a59b93a9d8d0" />
     <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/03483be9-83aa-46b2-a44b-a59b93a9d8d0/演示.sql" value="03483be9-83aa-46b2-a44b-a59b93a9d8d0" />
     <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/03483be9-83aa-46b2-a44b-a59b93a9d8d0/第一次演示.sql" value="03483be9-83aa-46b2-a44b-a59b93a9d8d0" />
     <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/1556ef39-856d-4971-93bb-8347fd90f661/console.sql" value="1556ef39-856d-4971-93bb-8347fd90f661" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/1d0cec46-c6f2-4236-be5b-21c048b9a7fb/console.sql" value="1d0cec46-c6f2-4236-be5b-21c048b9a7fb" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/1d0cec46-c6f2-4236-be5b-21c048b9a7fb/定时任务测试.sql" value="1d0cec46-c6f2-4236-be5b-21c048b9a7fb" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/364cb1d0-5cdb-4e40-b0f7-ae213dc1e598/console.sql" value="364cb1d0-5cdb-4e40-b0f7-ae213dc1e598" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/3eaccca2-da30-419c-825d-e35d066814d0/console.sql" value="3eaccca2-da30-419c-825d-e35d066814d0" />
     <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/5afc7725-3cac-4b5e-a52e-f87afd7d1dec/console.sql" value="5afc7725-3cac-4b5e-a52e-f87afd7d1dec" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/6d38cfb2-8008-4daa-8e12-113e2cc6b402/console.sql" value="6d38cfb2-8008-4daa-8e12-113e2cc6b402" />
     <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/9531ebb5-2ac5-41a4-ab54-7812a26d8232/console.sql" value="9531ebb5-2ac5-41a4-ab54-7812a26d8232" />
-    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/03-查询条目信息.sql" value="01765648-da1e-4e54-b61d-151c231ddb2d" />
-    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/2025年9月16日缴存演示.sql" value="01765648-da1e-4e54-b61d-151c231ddb2d" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/a8873d9d-8c32-4525-9cb3-1b0ed33c089e/console.sql" value="a8873d9d-8c32-4525-9cb3-1b0ed33c089e" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/ad2fa795-2aff-4545-8b9e-88f02c44e17e/console.sql" value="ad2fa795-2aff-4545-8b9e-88f02c44e17e" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/bfba1f39-f3fd-4c44-a6df-11b5403cce8f/console.sql" value="bfba1f39-f3fd-4c44-a6df-11b5403cce8f" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/d3b8a3b4-e472-4026-a41d-391c2448e597/console.sql" value="d3b8a3b4-e472-4026-a41d-391c2448e597" />
+    <file url="file://$PROJECT_DIR$/01-工具代码/Oracle-01-查询锁定状态以及切断.sql" value="bfba1f39-f3fd-4c44-a6df-11b5403cce8f" />
+    <file url="file://$PROJECT_DIR$/01-工具代码/一些日常小sql.sql" value="3eaccca2-da30-419c-825d-e35d066814d0" />
+    <file url="file://$PROJECT_DIR$/02-pforms/2025年10月30日 中心端测试.sql" value="bfba1f39-f3fd-4c44-a6df-11b5403cce8f" />
+    <file url="file://$PROJECT_DIR$/03-Fis/02-存单状态判定sql.sql" value="bfba1f39-f3fd-4c44-a6df-11b5403cce8f" />
+    <file url="file://$PROJECT_DIR$/03-Fis/2025年11月17日 新增存单改造sql留存.sql" value="bfba1f39-f3fd-4c44-a6df-11b5403cce8f" />
+    <file url="file://$PROJECT_DIR$/03-Fis/2025年11月4日-增值功能整理.sql" value="5983ac45-2143-4d24-b8af-21bfc0ca4d93" />
+    <file url="file://$PROJECT_DIR$/03-Fis/2025年11月7日 增值利率管理 按钮权限设置.sql" value="5afc7725-3cac-4b5e-a52e-f87afd7d1dec" />
+    <file url="file://$PROJECT_DIR$/04-Fss/01-CarehomeJobTest/01-结算入账测试/01-查询条目信息.sql" value="d3b8a3b4-e472-4026-a41d-391c2448e597" />
+    <file url="file://$PROJECT_DIR$/04-Fss/01-CarehomeJobTest/01-结算入账测试/2025年09月16日 缴存演示.sql" value="3eaccca2-da30-419c-825d-e35d066814d0" />
+    <file url="file://$PROJECT_DIR$/04-Fss/01-CarehomeJobTest/01-结算入账测试/2025年10月13日 人工勾兑再交款入账同步测试.sql" value="6d38cfb2-8008-4daa-8e12-113e2cc6b402" />
+    <file url="file://$PROJECT_DIR$/04-Fss/01-CarehomeJobTest/01-结算入账测试/2025年10月22日 人工勾兑再交款入账同步测试.sql" value="6d38cfb2-8008-4daa-8e12-113e2cc6b402" />
+    <file url="file://$PROJECT_DIR$/04-Fss/01-CarehomeJobTest/01-结算入账测试/2025年10月24日 数据同步入账info_id发生变化的问题解决.sql" value="6d38cfb2-8008-4daa-8e12-113e2cc6b402" />
+    <file url="file://$PROJECT_DIR$/04-Fss/01-CarehomeJobTest/01-结算入账测试/2025年11月05日 人工勾兑再交款入账同步测试.sql" value="6d38cfb2-8008-4daa-8e12-113e2cc6b402" />
+    <file url="file://$PROJECT_DIR$/04-Fss/02-银行核心流水/01-拉取流水按钮权限添加.sql" value="5afc7725-3cac-4b5e-a52e-f87afd7d1dec" />
+    <file url="file://$PROJECT_DIR$/04-Fss/03-电子票联调/01-请求开具电子票.sql" value="1556ef39-856d-4971-93bb-8347fd90f661" />
+    <file url="file://$PROJECT_DIR$/04-Fss/04-对账/01-专户对账.sql" value="1556ef39-856d-4971-93bb-8347fd90f661" />
+    <file url="file://$PROJECT_DIR$/04-Fss/04-对账/02-房屋专项维修资金日核对平衡表数据梳理.sql" value="1556ef39-856d-4971-93bb-8347fd90f661" />
+    <file url="file://$PROJECT_DIR$/04-Fss/04-对账/99-对账功能数据查询存留脚本.sql" value="1556ef39-856d-4971-93bb-8347fd90f661" />
+    <file url="file://$PROJECT_DIR$/Oracle库工具/查看当前会话（谁连接了数据库）.sql" value="bfba1f39-f3fd-4c44-a6df-11b5403cce8f" />
+    <file url="file://$PROJECT_DIR$/Oracle库工具/查看当前正在执行的 SQL.sql" value="bfba1f39-f3fd-4c44-a6df-11b5403cce8f" />
+    <file url="file://$PROJECT_DIR$/Oracle库工具/查看执行时间最长的 SQL（慢 SQL 排查）.sql" value="bfba1f39-f3fd-4c44-a6df-11b5403cce8f" />
+    <file url="file://$PROJECT_DIR$/Oracle库工具/查看数据库锁等待的具体情况.sql" value="bfba1f39-f3fd-4c44-a6df-11b5403cce8f" />
+    <file url="file://$PROJECT_DIR$/Oracle库工具/查看被锁的表及锁来源.sql" value="bfba1f39-f3fd-4c44-a6df-11b5403cce8f" />
+    <file url="file://$PROJECT_DIR$/Oracle库工具/查看阻塞与被阻塞的会话（死锁排查）.sql" value="bfba1f39-f3fd-4c44-a6df-11b5403cce8f" />
   </component>
 </project>

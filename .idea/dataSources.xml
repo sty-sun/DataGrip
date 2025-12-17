@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="oracle@10.10.30.11" uuid="3eaccca2-da30-419c-825d-e35d066814d0">
+    <data-source source="LOCAL" name="10.10.30.11" group="oracle" uuid="3eaccca2-da30-419c-825d-e35d066814d0">
       <driver-ref>oracle.19</driver-ref>
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
@@ -9,7 +9,7 @@
       <jdbc-url>jdbc:oracle:thin:@10.10.30.11:1521:hmfmstest</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="oracle-pforms银行端@10.10.30.13" uuid="ad2fa795-2aff-4545-8b9e-88f02c44e17e">
+    <data-source source="LOCAL" name="oracle-pforms银行端@10.10.30.13" group="oracle/银行端" uuid="ad2fa795-2aff-4545-8b9e-88f02c44e17e">
       <driver-ref>oracle.19</driver-ref>
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
@@ -17,7 +17,7 @@
       <jdbc-url>jdbc:oracle:thin:@10.10.30.13:1521:hmfmstest</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="oracle-smalltown中心端@10.10.30.11" uuid="34b45ac2-c8a9-40e5-a161-418f69d88ab1">
+    <data-source source="LOCAL" name="oracle-smalltown中心端@10.10.30.11" group="oracle/小城镇" uuid="34b45ac2-c8a9-40e5-a161-418f69d88ab1">
       <driver-ref>oracle.19</driver-ref>
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
@@ -25,7 +25,7 @@
       <jdbc-url>jdbc:oracle:thin:@10.10.30.11:1521:hmfmstest</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="oracle-smalltown中心端@10.10.10.10" uuid="9499401e-11cf-40b2-8ddd-b18953c01fd3">
+    <data-source source="LOCAL" name="oracle-smalltown中心端@10.10.10.10" group="oracle/小城镇" uuid="9499401e-11cf-40b2-8ddd-b18953c01fd3">
       <driver-ref>oracle.19</driver-ref>
       <synchronize>true</synchronize>
       <remarks>中心端</remarks>
@@ -34,32 +34,7 @@
       <jdbc-url>jdbc:oracle:thin:@10.10.10.10:1521:testdb</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="oracle@192.168.31.78" uuid="734fac59-d5b5-48f0-948a-dc6e66bc9154">
-      <driver-ref>oracle.19</driver-ref>
-      <synchronize>true</synchronize>
-      <auto-commit>false</auto-commit>
-      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
-      <jdbc-url>jdbc:oracle:thin:@//192.168.31.78:1522/xe</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="mysql@192.168.31.78" uuid="41a6d959-90c4-432e-b14b-8b61fbf43222">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://192.168.31.78:3306</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="redis@192.168.31.78" uuid="68b98235-35b8-40c4-b9b6-b842ed2e91b7">
-      <driver-ref>redis</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>jdbc.RedisDriver</jdbc-driver>
-      <jdbc-url>jdbc:redis://192.168.31.78:6379/0</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-      <driver-properties>
-        <property name="keys pattern" />
-      </driver-properties>
-    </data-source>
-    <data-source source="LOCAL" name="oracle@10.10.40.11" uuid="03483be9-83aa-46b2-a44b-a59b93a9d8d0">
+    <data-source source="LOCAL" name="10.10.40.11" group="oracle" uuid="03483be9-83aa-46b2-a44b-a59b93a9d8d0">
       <driver-ref>oracle.19</driver-ref>
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
@@ -67,14 +42,14 @@
       <jdbc-url>jdbc:oracle:thin:@10.10.40.11:1521:hmfmstest</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="mysql@10.10.40.17" uuid="5afc7725-3cac-4b5e-a52e-f87afd7d1dec">
+    <data-source source="LOCAL" name="10.10.40.17" group="mysql" uuid="5afc7725-3cac-4b5e-a52e-f87afd7d1dec">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://10.10.40.17:13306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="oracle@10.10.40.17" uuid="1556ef39-856d-4971-93bb-8347fd90f661">
+    <data-source source="LOCAL" name="10.10.40.17" group="oracle" uuid="1556ef39-856d-4971-93bb-8347fd90f661">
       <driver-ref>oracle.19</driver-ref>
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
@@ -82,21 +57,21 @@
       <jdbc-url>jdbc:oracle:thin:@10.10.40.17:1521:hmfmstest</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="mysql@10.10.30.15" uuid="1d0cec46-c6f2-4236-be5b-21c048b9a7fb">
+    <data-source source="LOCAL" name="10.10.30.15" group="mysql" uuid="1d0cec46-c6f2-4236-be5b-21c048b9a7fb">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://10.10.30.15:13306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="mysql@10.10.40.15" uuid="5983ac45-2143-4d24-b8af-21bfc0ca4d93">
+    <data-source source="LOCAL" name="10.10.40.15" group="mysql" uuid="5983ac45-2143-4d24-b8af-21bfc0ca4d93">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://10.10.40.15:3306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="oracle@10.10.40.13" uuid="9531ebb5-2ac5-41a4-ab54-7812a26d8232">
+    <data-source source="LOCAL" name="10.10.40.13" group="oracle" uuid="9531ebb5-2ac5-41a4-ab54-7812a26d8232">
       <driver-ref>oracle.19</driver-ref>
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
@@ -104,7 +79,7 @@
       <jdbc-url>jdbc:oracle:thin:@10.10.40.13:1521:hmfmstest</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="oracle@10.10.40.15" uuid="6d38cfb2-8008-4daa-8e12-113e2cc6b402">
+    <data-source source="LOCAL" name="10.10.40.15" group="oracle" uuid="6d38cfb2-8008-4daa-8e12-113e2cc6b402">
       <driver-ref>oracle.19</driver-ref>
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
@@ -112,12 +87,50 @@
       <jdbc-url>jdbc:oracle:thin:@10.10.40.15:1521:hmfmstest</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="oracle-carehome@10.10.30.17" uuid="01765648-da1e-4e54-b61d-151c231ddb2d">
+    <data-source source="LOCAL" name="10.10.30.17" group="oracle" uuid="01765648-da1e-4e54-b61d-151c231ddb2d">
       <driver-ref>oracle.19</driver-ref>
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
       <jdbc-url>jdbc:oracle:thin:@10.10.30.17:1521:hmfmstest</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="10.10.30.15" group="oracle" uuid="d3b8a3b4-e472-4026-a41d-391c2448e597">
+      <driver-ref>oracle.19</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@10.10.30.15:1521:hmfmstest</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="oracle-smalltown中心端@10.10.40.17" group="oracle/小城镇" uuid="364cb1d0-5cdb-4e40-b0f7-ae213dc1e598">
+      <driver-ref>oracle.19</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@10.10.40.17:1521:HMFMSTEST</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="10.10.30.13" group="oracle" uuid="bfba1f39-f3fd-4c44-a6df-11b5403cce8f">
+      <driver-ref>oracle.19</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@10.10.30.13:1521:hmfmstest</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="redis@10.10.40.17" group="redis" uuid="ac6c5715-9bd3-4a44-94a0-e49e8c897fc8">
+      <driver-ref>redis</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>jdbc.RedisDriver</jdbc-driver>
+      <jdbc-url>jdbc:redis://10.10.40.17:6379/0</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="10.10.30.17" group="mysql" uuid="a8873d9d-8c32-4525-9cb3-1b0ed33c089e">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://10.10.30.17:13306</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

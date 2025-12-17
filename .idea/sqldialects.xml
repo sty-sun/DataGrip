@@ -1,40 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/../../erdata/dbscript/01-create_table.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/../../erdata/dbscript/02-create_index.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/../../erdata/dbscript/init_data/07sys_dict.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/00-工具代码/Oracle-01-查询锁定状态以及切断.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/00-工具代码/pforms-更改sys_param.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/01-续交/01-续交02.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/01-续交/01-续交数据操作.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/01-续交所有入口集中测试.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/02-再交款/02-再交数据操作.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/02-再交款/02-再交款双边交款.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/02-再交款/02-再交款滨海新区new.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/02-再交款/02-再交款滨海新区数据.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/02-再交款/02-滨海交款.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/02-再交款/02-滨海再交款 购房人单边交款.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/02-再交款/02-滨海再交款 资金部创建交易.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/02-再交款所有入口集中测试.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/03-柜面交款/03-CounterPay Interface Test.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/03-查询条目信息.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/01-CarehomeJobTest/2025年9月16日缴存演示.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/../carehome/carehome2/carehome-svr/db/00schema.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/../carehome/carehome2/carehome-svr/db/01carehome_config.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/../carehome/carehome2/carehome-svr/db/02carehome_sys.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/../carehome/carehome2/carehome-svr/db/03carehome_job.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/../pig4cloud.com/pigx/db/0pigxx_boot.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/../pig4cloud.com/pigx/db/1schema.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/../pig4cloud.com/pigx/db/2pigxx.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/../pig4cloud.com/pigx/db/3pigxx_flow.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/../pig4cloud.com/pigx/db/4pigxx_job.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/../pig4cloud.com/pigx/db/5pigxx_mp.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/../pig4cloud.com/pigx/db/6pigxx_config.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/../pig4cloud.com/pigx/db/7pigxx_pay.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/../pig4cloud.com/pigx/db/8pigxx_codegen.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/../pig4cloud.com/pigx/db/999pigxx_app.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/../pig4cloud.com/pigx/db/99pigxx_bi.sql" dialect="MySQL" />
-    <file url="PROJECT" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/01-工具代码/Oracle-01-查询锁定状态以及切断.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/01-工具代码/pforms-更改sys_param.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/01-工具代码/一些日常小sql.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/02-pforms/2025年10月30日 中心端测试.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/03-Fis/02-存单状态判定sql.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/03-Fis/2025年11月17日 新增存单改造sql留存.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/03-Fis/2025年11月4日-增值功能整理.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/03-Fis/2025年11月7日 增值利率管理 按钮权限设置.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/04-Fss/01-CarehomeJobTest/01-结算入账测试/01-查询条目信息.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/04-Fss/01-CarehomeJobTest/01-结算入账测试/01-续交/01-续交02.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/04-Fss/01-CarehomeJobTest/01-结算入账测试/01-续交/01-续交所有入口集中测试.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/04-Fss/01-CarehomeJobTest/01-结算入账测试/01-续交/01-续交数据操作.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/04-Fss/01-CarehomeJobTest/01-结算入账测试/02-再交款/02-再交数据操作.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/04-Fss/01-CarehomeJobTest/01-结算入账测试/02-再交款/02-再交款双边交款.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/04-Fss/01-CarehomeJobTest/01-结算入账测试/02-再交款/02-再交款所有入口集中测试.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/04-Fss/01-CarehomeJobTest/01-结算入账测试/02-再交款/02-再交款滨海新区new.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/04-Fss/01-CarehomeJobTest/01-结算入账测试/02-再交款/02-再交款滨海新区数据.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/04-Fss/01-CarehomeJobTest/01-结算入账测试/02-再交款/02-滨海交款.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/04-Fss/01-CarehomeJobTest/01-结算入账测试/02-再交款/02-滨海再交款 购房人单边交款.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/04-Fss/01-CarehomeJobTest/01-结算入账测试/02-再交款/02-滨海再交款 资金部创建交易.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/04-Fss/01-CarehomeJobTest/01-结算入账测试/2025年09月16日 缴存演示.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/04-Fss/01-CarehomeJobTest/01-结算入账测试/2025年10月13日 人工勾兑再交款入账同步测试.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/04-Fss/01-CarehomeJobTest/01-结算入账测试/2025年10月22日 人工勾兑再交款入账同步测试.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/04-Fss/01-CarehomeJobTest/01-结算入账测试/2025年10月24日 数据同步入账info_id发生变化的问题解决.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/04-Fss/01-CarehomeJobTest/01-结算入账测试/2025年11月05日 人工勾兑再交款入账同步测试.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/04-Fss/01-CarehomeJobTest/02-柜面交款/03-CounterPay Interface Test.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/04-Fss/02-银行核心流水/01-拉取流水按钮权限添加.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/04-Fss/03-电子票联调/01-请求开具电子票.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/04-Fss/04-对账/01-专户对账.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/04-Fss/04-对账/02-房屋专项维修资金日核对平衡表数据梳理.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/04-Fss/04-对账/99-对账功能数据查询存留脚本.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/Oracle库工具/查看当前会话（谁连接了数据库）.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/Oracle库工具/查看当前正在执行的 SQL.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/Oracle库工具/查看执行时间最长的 SQL（慢 SQL 排查）.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/Oracle库工具/查看数据库锁等待的具体情况.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/Oracle库工具/查看被锁的表及锁来源.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/Oracle库工具/查看阻塞与被阻塞的会话（死锁排查）.sql" dialect="Oracle" />
+    <file url="PROJECT" dialect="Oracle" />
   </component>
 </project>

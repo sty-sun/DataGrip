@@ -22,9 +22,9 @@ BEGIN
     END IF;
 END;
 -- 还原
-update SYS_PARA
-set PARA_VALUE = 'https://wxzj.tjzfbz.com.cn/yijubao/master/mbl/api/pforms/sys/sysfileinfo/getPdfFileWeb'
-where PARA_NAME = 'APP_PDF_PATH';
+UPDATE SYS_PARA
+SET PARA_VALUE = 'https://wxzj.tjzfbz.com.cn/yijubao/master/mbl/api/pforms/sys/sysfileinfo/getPdfFileWeb'
+WHERE PARA_NAME = 'APP_PDF_PATH';
 
 
 SELECT *
@@ -32,7 +32,7 @@ FROM BASE_INFO bi
          JOIN NOTIFY_CUIJIAO_INFO nci ON bi.INFO_ID = nci.INFO_ID
 WHERE RENEWAL_STATUS = 0
   AND IMP_DATE >= '20250101'
-  AND MNG_ORG_ID = 100
+  AND bi.MNG_ORG_ID = 100
   AND STATUS = 1
   AND bi.INFO_ID NOT IN ('120000709610');
 -- 再交款
@@ -43,7 +43,9 @@ FROM RECEIVE_CONTRACT_INFO rci
 WHERE NOT EXISTS(SELECT *
                  FROM HOU_INFO hi
                  WHERE hi.BUY_PACT_NO = rci.BUY_PACT_NO)
-  AND BUY_PACT_NO NOT IN ('2025-9080347', '2025-9080344')
+  AND BUY_PACT_NO NOT IN
+      ('2025-9080347', '2025-9080344', '2025-9091352', '2025-9091348', '2025-9091339', '2025-9091331', '2025-9091330',
+       '2025-9097434')
   AND DEV_PAY = 0
   AND OWN_PAY = 0
 ORDER BY BUY_PACT_NO DESC;
@@ -64,7 +66,10 @@ FROM base_info info
               ON info.info_id = config.info_id
 WHERE (hou.DEV_BILL_CODE IS NOT NULL OR hou.DEV_EBILL_CODE IS NOT NULL)
   AND (hou.OWN_BILL_CODE IS NULL AND hou.OWN_EBILL_CODE IS NULL)
-  AND (DEV_BILL_CODE NOT IN ('00485532-2014', '00485533-2014', '00485530-2014', '00485534-2014', '00485674-2014'))
+  AND (DEV_BILL_CODE NOT IN
+       ('00485742-2014', '00485532-2014', '00485533-2014', '00485530-2014', '00485534-2014', '00485674-2014',
+        '00485697-2014', '00485681-2014', '00485707-2014', '00485861-2014', '00485560-2014', '00485585-2014',
+        '2025-9091368', '00485586-2014', '00485716-2014', '00485738-2014', '00485760-2014', '00485763-2014'))
   AND hou.dev_bill_code IN (SELECT bill_code
                             FROM bill_info a
                                      JOIN bill_use_info b ON
@@ -84,7 +89,7 @@ WHERE (hou.DEV_BILL_CODE IS NOT NULL OR hou.DEV_EBILL_CODE IS NOT NULL)
 
 
 -- 3.资金部缴存——开发商已交、购房人未交、产权人变更
-SELECT rci.OWN_NAME AS own_name, --
+SELECT rci.OWN_NAME AS own_name,  --
        bi.INFO_NAME AS info_name, -- 产权人
        bi.INFO_ID,
        rci.*
@@ -105,8 +110,6 @@ SELECT *
 FROM E_BILL_TASK
 WHERE BATCH_NO = '';
 -- 4. 流水信息中绑定的业务信息是否正确
-
-
 
 
 BEGIN
