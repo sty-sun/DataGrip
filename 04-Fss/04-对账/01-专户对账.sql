@@ -1,7 +1,7 @@
 -------------------------------------------------------
 -- 1. 专户对账主表 FSS_ACCT_RECON
 -------------------------------------------------------
-DROP TABLE FSS_ACCT_RECON;
+-- DROP TABLE FSS_ACCT_RECON;
 CREATE TABLE FSS_ACCT_RECON
 (
     RECON_ID           NUMBER(19)                    NOT NULL, -- 主键ID
@@ -43,7 +43,7 @@ COMMENT ON COLUMN FSS_ACCT_RECON.UPDATE_TIME IS '更新时间';
 -------------------------------------------------------
 -- 2. 日终平衡表主表 FSS_DAILY_BAL_SHEET
 -------------------------------------------------------
-DROP TABLE FSS_DAILY_BAL_SHEET;
+-- DROP TABLE FSS_DAILY_BAL_SHEET;
 CREATE TABLE FSS_DAILY_BAL_SHEET
 (
     SHEET_ID           NUMBER(19)                    NOT NULL, -- 主键ID
@@ -150,7 +150,7 @@ CREATE INDEX IDX_FSS_DAILY_BAL_SHEET_DATE ON FSS_DAILY_BAL_SHEET (RECON_DATE);
 -------------------------------------------------------
 -- 3. 日终对账平衡表调整明细表 FSS_DAILY_BAL_ADJ_ITEM
 -------------------------------------------------------
-DROP TABLE FSS_DAILY_BAL_ADJ_ITEM;
+-- DROP TABLE FSS_DAILY_BAL_ADJ_ITEM;
 CREATE TABLE FSS_DAILY_BAL_ADJ_ITEM
 (
     ITEM_ID       NUMBER(19)              NOT NULL, -- 主键ID
@@ -181,7 +181,7 @@ COMMENT ON COLUMN FSS_DAILY_BAL_ADJ_ITEM. DISPLAY_ORDER IS '显示顺序';
 -------------------------------------------------------
 -- 4. 日平衡表调整项目配置表 FSS_DAILY_BAL_ADJ_ITEM_CFG
 -------------------------------------------------------
-DROP TABLE FSS_DAILY_BAL_ADJ_ITEM_CFG;
+-- DROP TABLE FSS_DAILY_BAL_ADJ_ITEM_CFG;
 CREATE TABLE FSS_DAILY_BAL_ADJ_ITEM_CFG
 (
     CFG_ID            NUMBER(19)                    NOT NULL, -- 主键ID

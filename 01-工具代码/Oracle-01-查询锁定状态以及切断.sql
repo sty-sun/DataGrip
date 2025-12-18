@@ -1,3 +1,13 @@
+SELECT
+    s.sid, s.serial#, s.username, s.machine, s.program,
+    o.owner, o.object_name, lo.locked_mode
+FROM v$locked_object lo
+         JOIN dba_objects o ON o.object_id = lo.object_id
+         JOIN v$session s ON s.sid = lo.session_id
+WHERE o.object_name = 'EBILL_INFO';
+
+
+-- ==================================================================================
 -- ²éÑ¯Ëø¶¨×´Ì¬
 SELECT l.session_id,
        sid,
