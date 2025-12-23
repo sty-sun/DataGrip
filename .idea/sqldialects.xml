@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/01-工具代码/pforms-更改sys_param.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/01-工具代码/一些日常小sql.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/02-pforms/2025年10月30日 中心端测试.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/02-pforms/2025年12月19日 设施设备sql整理.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/03-Fis/02-存单状态判定sql.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/03-Fis/2025年11月17日 新增存单改造sql留存.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/03-Fis/2025年11月4日-增值功能整理.sql" dialect="MySQL" />
