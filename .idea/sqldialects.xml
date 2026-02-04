@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/../../../User/Desktop/FSS_BALANCE_CFG_BANK.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/../../../User/Desktop/FSS_BALANCE_CFG_TRADE.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/01-工具代码/Oracle-01-查询锁定状态以及切断.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/01-工具代码/pforms-更改sys_param.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/01-工具代码/一些日常小sql.sql" dialect="Oracle" />
@@ -27,9 +29,10 @@
     <file url="file://$PROJECT_DIR$/03-carehome/01-Fss/02-银行核心流水/01-拉取流水按钮权限添加.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/03-carehome/01-Fss/03-电子票联调/01-请求开具电子票.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/03-carehome/01-Fss/03-电子票联调/02-电子票更改脚本留存.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/03-carehome/01-Fss/04-对账/01-专户对账.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/03-carehome/01-Fss/04-对账/02-房屋专项维修资金日核对平衡表数据梳理.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/03-carehome/01-Fss/04-对账/99-对账功能数据查询存留脚本.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/03-carehome/01-Fss/03-电子票联调/03-电子票据可行性分析.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/03-carehome/01-Fss/04-对账/00-对账常用脚本.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/03-carehome/01-Fss/04-对账/01-对账表结构设计.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/03-carehome/01-Fss/04-对账/02-对账表数据脚本.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/03-carehome/02-Fis/02-存单状态判定sql.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/03-carehome/02-Fis/2025年11月17日 新增存单改造sql留存.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/03-carehome/02-Fis/2025年11月4日-增值功能整理.sql" dialect="MySQL" />
