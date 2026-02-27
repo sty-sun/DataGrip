@@ -2,13 +2,8 @@
 <project version="4">
   <component name="DataSourcePerFileMappings">
     <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/01765648-da1e-4e54-b61d-151c231ddb2d/console.sql" value="01765648-da1e-4e54-b61d-151c231ddb2d" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/03483be9-83aa-46b2-a44b-a59b93a9d8d0/console_1.sql" value="03483be9-83aa-46b2-a44b-a59b93a9d8d0" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/03483be9-83aa-46b2-a44b-a59b93a9d8d0/入账-消息队列改造.sql" value="03483be9-83aa-46b2-a44b-a59b93a9d8d0" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/03483be9-83aa-46b2-a44b-a59b93a9d8d0/对账Test.sql" value="03483be9-83aa-46b2-a44b-a59b93a9d8d0" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/03483be9-83aa-46b2-a44b-a59b93a9d8d0/演示.sql" value="03483be9-83aa-46b2-a44b-a59b93a9d8d0" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/03483be9-83aa-46b2-a44b-a59b93a9d8d0/第一次演示.sql" value="03483be9-83aa-46b2-a44b-a59b93a9d8d0" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/03483be9-83aa-46b2-a44b-a59b93a9d8d0/console.sql" value="03483be9-83aa-46b2-a44b-a59b93a9d8d0" />
     <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/1556ef39-856d-4971-93bb-8347fd90f661/console.sql" value="1556ef39-856d-4971-93bb-8347fd90f661" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/1556ef39-856d-4971-93bb-8347fd90f661/对账Test.sql" value="1556ef39-856d-4971-93bb-8347fd90f661" />
     <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/1d0cec46-c6f2-4236-be5b-21c048b9a7fb/console.sql" value="1d0cec46-c6f2-4236-be5b-21c048b9a7fb" />
     <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/1d0cec46-c6f2-4236-be5b-21c048b9a7fb/定时任务测试.sql" value="1d0cec46-c6f2-4236-be5b-21c048b9a7fb" />
     <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/3eaccca2-da30-419c-825d-e35d066814d0/console.sql" value="3eaccca2-da30-419c-825d-e35d066814d0" />
@@ -35,11 +30,11 @@
     <file url="file://$PROJECT_DIR$/03-carehome/02-Fis/2025年11月17日 新增存单改造sql留存.sql" value="bfba1f39-f3fd-4c44-a6df-11b5403cce8f" />
     <file url="file://$PROJECT_DIR$/03-carehome/02-Fis/2025年11月4日-增值功能整理.sql" value="5983ac45-2143-4d24-b8af-21bfc0ca4d93" />
     <file url="file://$PROJECT_DIR$/03-carehome/02-Fis/2025年11月7日 增值利率管理 按钮权限设置.sql" value="5afc7725-3cac-4b5e-a52e-f87afd7d1dec" />
-    <file url="file://$PROJECT_DIR$/Oracle库工具/查看当前会话（谁连接了数据库）.sql" value="bfba1f39-f3fd-4c44-a6df-11b5403cce8f" />
-    <file url="file://$PROJECT_DIR$/Oracle库工具/查看当前正在执行的 SQL.sql" value="bfba1f39-f3fd-4c44-a6df-11b5403cce8f" />
-    <file url="file://$PROJECT_DIR$/Oracle库工具/查看执行时间最长的 SQL（慢 SQL 排查）.sql" value="bfba1f39-f3fd-4c44-a6df-11b5403cce8f" />
-    <file url="file://$PROJECT_DIR$/Oracle库工具/查看数据库锁等待的具体情况.sql" value="bfba1f39-f3fd-4c44-a6df-11b5403cce8f" />
-    <file url="file://$PROJECT_DIR$/Oracle库工具/查看被锁的表及锁来源.sql" value="bfba1f39-f3fd-4c44-a6df-11b5403cce8f" />
-    <file url="file://$PROJECT_DIR$/Oracle库工具/查看阻塞与被阻塞的会话（死锁排查）.sql" value="bfba1f39-f3fd-4c44-a6df-11b5403cce8f" />
+    <file url="file://$PROJECT_DIR$/99-Oracle库工具/查看当前会话（谁连接了数据库）.sql" value="bfba1f39-f3fd-4c44-a6df-11b5403cce8f" />
+    <file url="file://$PROJECT_DIR$/99-Oracle库工具/查看当前正在执行的 SQL.sql" value="bfba1f39-f3fd-4c44-a6df-11b5403cce8f" />
+    <file url="file://$PROJECT_DIR$/99-Oracle库工具/查看执行时间最长的 SQL（慢 SQL 排查）.sql" value="bfba1f39-f3fd-4c44-a6df-11b5403cce8f" />
+    <file url="file://$PROJECT_DIR$/99-Oracle库工具/查看数据库锁等待的具体情况.sql" value="bfba1f39-f3fd-4c44-a6df-11b5403cce8f" />
+    <file url="file://$PROJECT_DIR$/99-Oracle库工具/查看被锁的表及锁来源.sql" value="bfba1f39-f3fd-4c44-a6df-11b5403cce8f" />
+    <file url="file://$PROJECT_DIR$/99-Oracle库工具/查看阻塞与被阻塞的会话（死锁排查）.sql" value="bfba1f39-f3fd-4c44-a6df-11b5403cce8f" />
   </component>
 </project>

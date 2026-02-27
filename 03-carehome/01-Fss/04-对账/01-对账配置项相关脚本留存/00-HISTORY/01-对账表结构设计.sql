@@ -428,7 +428,6 @@ COMMENT ON COLUMN FSS_BALANCE_CFG_TRADE.SOURCE_TYPE IS '来源文件名称'
 /
 COMMENT ON COLUMN FSS_BALANCE_CFG_TRADE.CATEGORY IS '类别'
 /
-COMMENT ON COLUMN FSS_BALANCE_CFG_TRADE.REGION_ID IS '所属区'
 /
 COMMENT ON COLUMN FSS_BALANCE_CFG_TRADE.DIST_ID IS '项目信息Id'
 /
@@ -562,14 +561,16 @@ INSERT INTO HX_WATER_DETAIL (
     TRAN_AMT,
     CREATE_TYPE,
     TRAN_NOTE,
-    TRAN_NOTE_BIZ
+    TRAN_NOTE_BIZ,
+                             PROC_STATUS
 ) VALUES (
              1000000000001,
              '158001201110000869',
              126278.00,
              '1',
              '浩天源',
-             '浩天源'
+             '浩天源',
+            'HISTORY'
          );
 
 INSERT INTO HX_WATER_DETAIL (
@@ -578,12 +579,14 @@ INSERT INTO HX_WATER_DETAIL (
     TRAN_AMT,
     CREATE_TYPE,
     TRAN_NOTE,
-    TRAN_NOTE_BIZ
+    TRAN_NOTE_BIZ,
+                             PROC_STATUS
 ) VALUES (
              1000000000002,
              '158001201110000869',
              8883839.7,
              '1',
              '拟造',
-             '拟造'
+             '拟造',
+          'HISTORY'
          );

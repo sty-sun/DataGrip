@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="db-tree-configuration">
+    <option name="data" value="1:0:oracle&#10;2:1:银行端&#10;4:1:小城镇&#10;16:0:mysql&#10;21:0:redis&#10;----------------------------------------&#10;3:2:ad2fa795-2aff-4545-8b9e-88f02c44e17e&#10;5:4:9499401e-11cf-40b2-8ddd-b18953c01fd3&#10;6:4:34b45ac2-c8a9-40e5-a161-418f69d88ab1&#10;7:4:364cb1d0-5cdb-4e40-b0f7-ae213dc1e598&#10;8:1:3eaccca2-da30-419c-825d-e35d066814d0&#10;9:1:bfba1f39-f3fd-4c44-a6df-11b5403cce8f&#10;10:1:d3b8a3b4-e472-4026-a41d-391c2448e597&#10;11:1:01765648-da1e-4e54-b61d-151c231ddb2d&#10;12:1:03483be9-83aa-46b2-a44b-a59b93a9d8d0&#10;13:1:9531ebb5-2ac5-41a4-ab54-7812a26d8232&#10;14:1:6d38cfb2-8008-4daa-8e12-113e2cc6b402&#10;15:1:1556ef39-856d-4971-93bb-8347fd90f661&#10;17:16:1d0cec46-c6f2-4236-be5b-21c048b9a7fb&#10;18:16:a8873d9d-8c32-4525-9cb3-1b0ed33c089e&#10;19:16:5983ac45-2143-4d24-b8af-21bfc0ca4d93&#10;20:16:5afc7725-3cac-4b5e-a52e-f87afd7d1dec&#10;22:21:ac6c5715-9bd3-4a44-94a0-e49e8c897fc8&#10;" />
+  </component>
+</project>

@@ -30,19 +30,21 @@
     <file url="file://$PROJECT_DIR$/03-carehome/01-Fss/03-电子票联调/01-请求开具电子票.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/03-carehome/01-Fss/03-电子票联调/02-电子票更改脚本留存.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/03-carehome/01-Fss/03-电子票联调/03-电子票据可行性分析.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/03-carehome/01-Fss/04-对账/00-对账常用脚本.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/03-carehome/01-Fss/04-对账/01-对账表结构设计.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/03-carehome/01-Fss/04-对账/02-对账表数据脚本.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/03-carehome/01-Fss/04-对账/01-对账配置项相关脚本留存/00-HISTORY/00-对账常用脚本.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/03-carehome/01-Fss/04-对账/01-对账配置项相关脚本留存/00-HISTORY/01-对账表结构设计.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/03-carehome/01-Fss/04-对账/01-对账配置项相关脚本留存/00-HISTORY/02-对账表数据脚本.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/03-carehome/01-Fss/04-对账/01-对账配置项相关脚本留存/04-上线脚本/01-表结构变化.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/03-carehome/01-Fss/04-对账/01-对账配置项相关脚本留存/04-上线脚本/02-导入数据.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/03-carehome/02-Fis/02-存单状态判定sql.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/03-carehome/02-Fis/2025年11月17日 新增存单改造sql留存.sql" dialect="Oracle" />
     <file url="file://$PROJECT_DIR$/03-carehome/02-Fis/2025年11月4日-增值功能整理.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/03-carehome/02-Fis/2025年11月7日 增值利率管理 按钮权限设置.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/Oracle库工具/查看当前会话（谁连接了数据库）.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/Oracle库工具/查看当前正在执行的 SQL.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/Oracle库工具/查看执行时间最长的 SQL（慢 SQL 排查）.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/Oracle库工具/查看数据库锁等待的具体情况.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/Oracle库工具/查看被锁的表及锁来源.sql" dialect="Oracle" />
-    <file url="file://$PROJECT_DIR$/Oracle库工具/查看阻塞与被阻塞的会话（死锁排查）.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/99-Oracle库工具/查看当前会话（谁连接了数据库）.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/99-Oracle库工具/查看当前正在执行的 SQL.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/99-Oracle库工具/查看执行时间最长的 SQL（慢 SQL 排查）.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/99-Oracle库工具/查看数据库锁等待的具体情况.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/99-Oracle库工具/查看被锁的表及锁来源.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/99-Oracle库工具/查看阻塞与被阻塞的会话（死锁排查）.sql" dialect="Oracle" />
     <file url="PROJECT" dialect="Oracle" />
   </component>
   <component name="SqlResolveMappings">
